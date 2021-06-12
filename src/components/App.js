@@ -9,7 +9,9 @@ function App() {
 
   return (
     <div className="App">
-      <MovieCard title={title} posterSrc={posterURL} genres={genresArr} />
+      <MovieCard title={title}  genres={genresArr} />
+       {/* posterSrc={posterURL} was ommited, even if you were to misspell posterSrc here, it would still default to the other pic */}
+
     </div>
   );
 }
